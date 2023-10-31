@@ -1,0 +1,95 @@
+
+.H_A_pag1e_container {
+    position: relative;
+    display: block;
+    line-height: 0;
+  }
+
+
+.ha{
+    font-weight: bold;
+    font-size: 42px;
+    display: inline-block;
+    text-align: center;  
+    width: 100%;
+    color: white;
+   
+  
+    
+  }
+
+
+.H_A_nav_bar{
+    display: block;
+    position: absolute;
+    height: 150px;
+    width: 1350PX;
+    font-size: 20px; 
+    margin-top: 55px;
+    z-index: 2; /* Set a higher z-index value */
+}
+.H_A_page_1 img{
+    min-height:810px ; 
+    line-height: 0%;   
+}
+
+
+/*------------------------------flexbox code--------------------------*/
+.H_A-flex-bar{
+  color: black;
+  height: 60px;
+  display: flex;
+  flex: auto;
+  width: 85%;
+  justify-content:space-between;
+  max-width: 1350px;
+  margin-top: 30px;
+  align-items: center;
+
+}
+
+.H_A-flex-l1ink{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30%;
+    border: none;
+    font-style: medium;
+    color: rgb(255, 255, 255);
+    padding: 4px 4px 4px 4px;
+    border-radius: 15px;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+
+.H_A-flex-item{
+    padding-right: 12px;
+    padding-left: 12px;
+    
+    }
+/*------------------------------slide-sychronization---------------------------------------*/
+
+.H_A_page_slide{
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+
+ /* Show the first image by default */
+ .H_A_page_1 {
+  display:none;
+ 
+}
+
+.H_A_page_1:first-child {
+  display: flex;
+}
+
+
+/* Next & previous buttons */
+.H_A-flex-l1ink {
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+}

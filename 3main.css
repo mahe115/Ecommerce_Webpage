@@ -1,0 +1,102 @@
+
+
+.phone_pag1e_container {
+    position: relative;
+    display: block;
+    line-height: 0;
+  }
+
+
+.MG{
+    font-weight: bold;
+    font-size: 42px;
+    display: inline-block;
+    text-align: center;  
+    width: 100%;
+    color: white;
+   
+  
+    
+  }
+
+
+.phone_nav_bar{
+    display: block;
+    position: absolute;
+    margin-top: 55px;
+    height: 150px;
+    width: 100%;
+    font-size: 20px; 
+    z-index: 2; /* Set a higher z-index value */
+   
+
+}
+.phone_p1age_1 img{
+    min-height:810px ;
+    
+}
+
+
+/*------------------------------flexbox code--------------------------*/
+.phone-flex-bar{
+    height: 60px;
+    display: flex;
+    flex: auto;
+    width: 75%;
+    justify-content:space-between;
+    max-width: 1350px;
+    margin-top: 30px;
+    align-items: center;
+   
+  
+
+
+  
+    
+}
+
+.phone-flex-l1ink{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30%;
+    border: none;
+    font-style: medium;
+    color: rgb(255, 255, 255);
+    padding: 4px 4px 4px 4px;
+    border-radius: 15px;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+
+.phone-flex-item{
+    padding-right: 12px;
+    padding-left: 12px;
+    
+    }
+/*------------------------------slide-sychronization---------------------------------------*/
+
+.phone_page_slide{
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+
+ /* Show the first image by default */
+ .phone_p1age_1 {
+  display:none;
+ 
+}
+
+.phone_p1age_1:first-child {
+  display: flex;
+}
+
+
+/* Next & previous buttons */
+.phone-flex-l1ink {
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+}

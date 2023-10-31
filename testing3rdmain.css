@@ -1,0 +1,126 @@
+.G1{
+    font-weight: bold;
+    font-size: 42px;
+    display: inline-block;
+    text-align: center;  
+    width: 100%;
+    margin-right: 14px;
+    margin-left: 14px;
+    padding-top: 35px;
+  
+    
+  }
+  .Highlights1-bar{
+      color: black;
+      height: 60px;
+      display: flex;
+      flex: auto;
+      width: 50%;
+      justify-content: space-between;
+      align-items: center;
+     
+  }
+  .nav21-item{
+    padding-right: 12px;
+    padding-left: 12px;
+    
+    }
+
+  .phone-flex-link{
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 30%;
+      border: none;
+      font-style: medium;
+      color: rgb(0, 0, 0);
+      padding: 4px 4px 4px 4px;
+      border-radius: 15px;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+  
+ 
+  
+      /*-- Itmes nav highlght ends here here  -->*/
+      /*-- Itmes highlght starts here here  -->*/
+  
+      .Highlights-collage{
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-area: 20px;
+        column-gap: 0;
+        row-gap: 20px;
+        
+      }
+      .Highlights-collage img{
+        border-radius: 20px;
+       
+        
+      }
+      .one {
+        grid-column: 1/ span 2;
+        grid-row: 1/ span 2;
+      
+      }
+      .two {
+        grid-column: 3;
+        grid-row: 1 ;
+      }
+      .three {
+        grid-column: 4;
+        grid-row: 1;
+      }
+      .four {
+        grid-column: 3;
+        grid-row: 2;
+      }
+      .five {
+        grid-column: 4;
+        grid-row: 2;
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .Highlights-main-layout{
+        max-width: 1350px;
+        position: relative;
+        margin: auto;
+    }
+    
+    
+     /* Show the first image by default */
+     .phone_page {
+      display:none;
+     
+    }
+    
+    .phone_page:first-child {
+      display: flex;
+    }
+    
+    
+    /* Next & previous buttons */
+    .phone-flex-link {
+      cursor: pointer;
+      position: absolute;
+      user-select: none;
+    }
+    
+    
+    
