@@ -1,7 +1,7 @@
 *{
     padding: 0;
     box-sizing: border-box;
-    max-width: 100%;
+    max-width: 1350px;
     margin: 0 auto;
    
   }
@@ -9,7 +9,7 @@
     color: black;
    
     height: 75.88px;
-    max-width: 100%;
+    max-width: 1350x;
 
     display: flex;
     justify-content: space-between;
