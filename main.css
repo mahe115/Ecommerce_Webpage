@@ -1,16 +1,15 @@
 *{
     padding: 0;
     box-sizing: border-box;
-    max-width: 1350px;
+    max-width: 100%;
     margin: 0 auto;
    
   }
 .nav-bar{
     color: black;
-    padding-left: 15px;
-    padding-right: 15px;
+   
     height: 75.88px;
-    width: 1349px;
+    max-width: 100%;
 
     display: flex;
     justify-content: space-between;

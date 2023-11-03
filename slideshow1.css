@@ -4,7 +4,7 @@
 .slideshow-container {
     max-width: 100%; 
     position: relative;
-    margin: auto;
+    margin: 0;
     display: block;
     line-height: 0;
   }
