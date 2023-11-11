@@ -4,11 +4,16 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="slideshow1.css">
     <script src="main.js"></script>
+    <script src="highligh.js"></script>
+    <script src="tv_highlight.js"></script>
+    <script src="phone_highlight.js"></script>
+    <script src="HA_highligh.js"></script>
     <link rel="stylesheet" href="2mian.css">
-    <link rel="stylesheet" href="3main.css">
-    <link rel="stylesheet" href="4main.css">
-    <link rel="stylesheet" href="5main.css">
+    <link rel="stylesheet" href="testing3_main.css">
+    <link rel="stylesheet" href="testing4_main.css">
+    <link rel="stylesheet" href="testing5_main.css">
     <link rel="stylesheet" href="product_container.css">
+    <link rel="stylesheet" href="explore.css">
 
 </head>
 <body>
@@ -323,133 +328,126 @@
     <!----------------testing-->
 <!------------------------------------------------------------------------------------------------------------->
 <!--phone navigation sliding area--------------------------------------------------------------------------->
-
-<div class="phone_pag1e_container">
-<div class="phone_nav_bar">
- <h1 class="MG">Mobiles</h1>
+<div class="complete_phone_container">
+<h1 class="MG">Mobiles</h1>
 <br>
-<div class="phone-flex-bar">
+
+<div class="phone_nav_bar">
+
     <div class="phone-flex-item">
-        <a   class="phone-flex-l1ink" onclick="show_phone_highlight(1)">Galaxy Z Fold5</a >
+        <a   class="phone-flex-l1ink" onclick="current_phone_Slide1(1)">Galaxy Z Fold5</a >
     </div>
     <div class="phone-flex-item">
-        <a   class="phone-flex-l1ink" onclick="show_phone_highlight(2)"> Galaxy S23 FE</a >
+        <a   class="phone-flex-l1ink" onclick="current_phone_Slide1(2)"> Galaxy S23 FE</a >
     </div>
 
   
     <div class="phone-flex-item">
-        <a   class="phone-flex-l1ink" onclick="show_phone_highlight(3)">Galaxy Tab S9 FE</a >
+        <a   class="phone-flex-l1ink" onclick="current_phone_Slide1(3)">Galaxy Tab S9 FE</a >
     </div>
     <div class="phone-flex-item">
-        <a   class="phone-flex-l1ink" onclick="show_phone_highlight(4)"> Galaxy Book3 Series</a >
+        <a   class="phone-flex-l1ink" onclick="current_phone_Slide1(4)"> Galaxy Book3 Series</a >
     </div>
     <div class="phone-flex-item">
-        <a   class="phone-flex-l1ink" onclick="show_phone_highlight(5)"> Galaxy Watch6 Series</a >
+        <a   class="phone-flex-l1ink" onclick="current_phone_Slide1(5)"> Galaxy Watch6 Series</a >
     </div>
-    </div>
+   
 
 
-</div>
 </div>
 
 <div class="phone_page_slide">
-<div class="phone_p1age_1">
+ <div class="phone_p1age_1">
        <img src="phone_navigation\1_Z-Fold5_1440x810.avif" width="auto">   
-</div>
-<div class="phone_p1age_1">
-    <img src="TV&AV navigation\2_Neo-qle.avif-FE_1440x810.avif" width="auto">   
-</div>
-<div class="phone_p1age_1">
-    <img src="phone_navigation\3_TabS9-FE_1440x810.avif" width="auto">   
-</div>
-<div class="phone_p1age_1">
-    <img src="phone_navigation\4_Galaxy-Book3-Series.avif" width="auto">   
-</div>
-<div class="phone_p1age_1">
-    <img src="phone_navigation\5_Galaxy-Watch6.avif" width="auto">   
-</div>
+ </div>
+ <div class="phone_p1age_1">
+      <img src="phone_navigation/2_S23-FE_1440x810.avif" width="auto">   
+ </div>
+ <div class="phone_p1age_1">
+      <img src="phone_navigation\3_TabS9-FE_1440x810.avif" width="auto">   
+ </div>
+ <div class="phone_p1age_1">
+     <img src="phone_navigation\4_Galaxy-Book3-Series.avif" width="auto">   
+ </div>
+ <div class="phone_p1age_1">
+     <img src="phone_navigation\5_Galaxy-Watch6.avif" width="auto">   
+ </div>
 </div>
 
+</div>
 <!-----------------------------------------TV_nav_bar--starts-here---------------------------------->
 
-
-<div class="TV_AV_pag1e_container">
+<div class="complete_TV_container">
+<h1 class="tv">TV & AV</h1>
+<br>
     <div class="TV_AV_nav_bar">
-     <h1 class="tv">TV & AV</h1>
-    <br>
-    <div class="TV_AV-flex-bar">
+    
         <div class="TV_AV-flex-item">
-            <a   class="TV_AV-flex-l1ink" onclick="1-show_TV_AV_highlight(1)">QLED</a >
+            <a   class="TV_AV-flex-l1ink" onclick="current_tv_Slide1(1)">QLED</a >
         </div>
         <div class="TV_AV-flex-item">
-            <a   class="TV_AV-flex-l1ink" onclick="1-show_TV_AV_highlight(2)">  Neo QLED</a >
+            <a   class="TV_AV-flex-l1ink" onclick="current_tv_Slide1(2)">  Neo QLED</a >
         </div>
     
       
         <div class="TV_AV-flex-item">
-            <a   class="TV_AV-flex-l1ink" onclick="1-show_TV_AV_highlight(3)"> Samsung OLED</a >
+            <a   class="TV_AV-flex-l1ink" onclick="current_tv_Slide1(3)"> Samsung OLED</a >
         </div>
         <div class="TV_AV-flex-item">
-            <a   class="TV_AV-flex-l1ink" onclick="1-show_TV_AV_highlight(4)"> The Frame</a >
+            <a   class="TV_AV-flex-l1ink" onclick="current_tv_Slide1(4)"> The Frame</a >
         </div>
         <div class="TV_AV-flex-item">
-            <a   class="TV_AV-flex-l1ink" onclick="1-show_TV_AV_highlight(5)"> The Freestyle</a >
-        </div>
+            <a   class="TV_AV-flex-l1ink" onclick="current_tv_Slide1(5)"> The Freestyle</a >
         </div>
     
     
     </div>
-    </div>
+   
     
-    <div class="TV_AV_page_slide">
-    <div class="TV_AV_page_1">
+ <div class="TV_AV_page_slide">
+     <div class="TV_AV_page_1">
            <img src="TV&AV navigation\1_QLED_QE1C.avif" width="auto">   
-    </div>
-    <div class="TV_AV_page_1">
-        <img src="TV&AV navigation\2_Neo-qle.avif" width="auto">   
-    </div>
-    <div class="TV_AV_page_1">
-        <img src="TV&AV navigation\3_Samsung-OLED.avif" width="auto">   
-    </div>
-    <div class="TV_AV_page_1">
+     </div>
+     <div class="TV_AV_page_1">
+         <img src="TV&AV navigation\2_Neo-qle.avif" width="auto">   
+     </div>
+     <div class="TV_AV_page_1">
+         <img src="TV&AV navigation\3_Samsung-OLED.avif" width="auto">   
+     </div>
+     <div class="TV_AV_page_1">
         <img src="TV&AV navigation\4_The-Frame.avif" width="auto">   
-    </div>
-    <div class="TV_AV_page_1">
-        <img src="TV&AV navigation\5_The-Freestyle-copy.avif" width="auto">   
-    </div>
-    </div>
+     </div>
+     <div class="TV_AV_page_1">
+         <img src="TV&AV navigation\5_The-Freestyle-copy.avif" width="auto">   
+     </div>
+ </div>
 
+</div>
 <!-----------------------------------------TV_nav_bar----ends-here------------------------------>
 
-
-
 <!-----------------------------------------home_appliances_nav_bar----starts-here------------------------------>
-
-<div class="H_A_pag1e_container">
+<div class="complete_ha_container">
+ <h1 class="ha">Home Appliances</h1>
+ <br>
     <div class="H_A_nav_bar">
-     <h1 class="ha">Home Appliances</h1>
-    <br>
-    <div class="H_A-flex-bar">
-        <div class=".H_A-flex-item">
-            <a   class="H_A-flex-l1ink" onclick="1">8.0kg AI Ecobubble</a >
+   
+        <div class="H_A-flex-item" >
+            <a   class="H_A-flex-l1ink" onclick="current_ha_Slide1(1)">8.0kg AI Ecobubble</a >
         </div>
-        <div class=".H_A-flex-item">
-            <a   class="H_A-flex-l1ink" onclick="1"> BESPOKE Side by Side</a >
+        <div class="H_A-flex-item" >
+            <a   class="H_A-flex-l1ink" onclick="current_ha_Slide1(2)"> BESPOKE Side by Side</a >
         </div>
     
       
-        <div class=".H_A-flex-item">
-            <a   class="H_A-flex-l1ink" onclick="1"> Bespoke Convection Microwave</a >
+        <div class="H_A-flex-item"  >
+            <a   class="H_A-flex-l1ink" onclick="current_ha_Slide1(3)"> Bespoke Convection Microwave</a >
         </div>
-        <div class=".H_A-flex-item">
-            <a   class="H_A-flex-l1ink" onclick="1">  8.0 kg Ecobubble</a >
+        <div class="H_A-flex-item" style="margin-right: -10px;" >
+            <a   class="H_A-flex-l1ink"  onclick="current_ha_Slide1(4)">  8.0 kg Ecobubble</a >
         </div>
-        <div class=".H_A-flex-item">
-            <a   class="H_A-flex-l1ink" onclick="1">  BESPOKE Double door</a >
-        </div>
-        </div>
-    
-    
+        <div class="H_A-flex-item" >
+            <a   class="H_A-flex-l1ink" onclick="current_ha_Slide1(5)">  BESPOKE Double door</a >
+        </div>   
     </div>
 
     
@@ -476,12 +474,13 @@
 
 
 <!-----------------------------------------product flexs----starts-here------------------------------>
+<div class="product_container">
 <p class="recom_prod">Recommended Products</p>
-<div class="product_container">   
-    <div class="products_grid">
-        <div class="firstu_item">
+   
+    <div  class="products_grid" >
+        <div class="firstu_item" >
             <div class="recommend_image">
-            <img class="recomd_image" src="Recommended products images\1_in-front-loading-washer-ww10t534daws1-374541-ww80t504dab-tl-thumb-383418965.avif" alt="1st item">
+            <img class="recomd_image"  src="Recommended products images\1_in-front-loading-washer-ww10t534daws1-374541-ww80t504dab-tl-thumb-383418965.avif" alt="1st item">
             </div>
             <div class="recom_description_section">
             <div class="my-recommended-product__section">
@@ -628,9 +627,59 @@
 
 
 <!-----------------------------------------exploaration things starts-here------------------------------>
+<div class="bottom_container">
 <p class="recom_prod">Explore #DoWhatYouCant</p>
 
+<div class="explore_container">
+    <div class="images_container" > 
+        
+        <div class="i1mg">
+            <img  src="last_images\mx0147_home-explore-banner_pc_684x684.webp" alt="1st image">  
+        </div>
+        <div class="i1mg">
+            <img  src="last_images\2-vd0026_home-explore-banner_pc_684x684.webp" alt="2st image"> 
+        </div>
+        <div class="i1mg">
+            <img  src="last_images\3-da0050_home_explore-banner_pc_684x684.jpg" alt="3st image"> 
+        </div>
+        <div class="i1mg">
+            <img  src="last_images\4-global0028_home-explore-banner_pc_684x684.webp" alt="4st image">
+        </div>
+        <div class="i1mg">
+            <img  src="last_images\5-16329_Bottom-Tile_684x684-WS.jpg" alt="5st image">  
+        </div>
+      
+         
+         
+         
+        
 
+    </div>
+    <div class="images_control_text">
+        <div class="te1xt">
+            <h2 ><span class="digite1">01</span>Tips for Navigating Big Life Changes</h2>
+        </div>
+        <div class="te1xt">
+            <h2 ><span class="digite2">02</span>Feel Free to Freestyle</h2>
+        </div>
+        <div class="te1xt">
+            <h2 ><span class="digite3">03</span>3 Hosting Tips to Alleviate Holiday Stress</h2>
+        </div>
+        <div class="te1xt">
+            <h2 ><span class="digite4">04</span>Meet G·NUSMAS, the curious extraterrestrial</h2>
+        </div>
+        <div class="te1xt">
+            <h2 ><span class="digite5">05</span>Top 10 are here!</h2>
+        </div>
+       
+       
+        
+     
+      
+
+    </div>
+</div>
+</div>
 
 
 <!-----------------------------------------exploaration things ends-here------------------------------>

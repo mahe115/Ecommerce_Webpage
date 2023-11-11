@@ -1,0 +1,98 @@
+.complete_TV_container{
+    position: relative;
+    bottom: 274px;
+  }
+  
+  .TV_AV_page_slide{
+      max-width: 1350px;
+      position: relative;
+      line-height: 0;
+  }
+  
+  
+   /* Show the first image by default */
+   .TV_AV_page_1{
+    display:none;
+   
+  }
+  
+  .TV_AV_page_1:first-child {
+    display: flex;
+  }
+  
+  
+  
+  .TV_AV-flex-l1ink{
+    cursor: pointer;
+    position: absolute;
+    user-select: none;
+  }
+  
+  
+  
+  .tv{
+    font-weight: bold;
+    font-size: 42px;
+    display: inline-block;
+    color: white;
+    text-align: center;  
+    width: 100%;
+    margin-right: 14px;
+    margin-left: 14px;
+    padding-top: 35px;
+    position: relative;
+    z-index: 1;
+    top: 145px;
+  
+    
+  }
+  .TV_AV_nav_bar{
+      color: rgb(255, 255, 255);
+      height: 60px;
+      display: flex;
+      flex: 0;
+      max-width: 1350px;
+      justify-content: space-between;
+      position: relative;
+      top: 140px;
+      z-index: 1;
+      margin-left: -40px;
+      padding-left: 10%;
+      padding-right: 10%;
+      align-items: center;
+      
+      
+  
+  
+  
+    
+      
+  }
+  
+  .TV_AV-flex-l1ink{
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 30%;
+      font-style: medium;
+      color: rgb(255, 255, 255);
+      padding: 4px 4px 4px 4px;
+      border-radius: 15px;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+  
+  .TV_AV-flex-item{
+      padding-right: 12px;
+      padding-left: 12px;
+      
+      }
+  
+      /*-- Itmes nav highlght ends here here  -->*/
+      /*-- Itmes highlght starts here here  -->*/
+  
+  
+  
+  
+  
+      /*-- gridbox of items  -->*/

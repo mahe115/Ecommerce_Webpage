@@ -1,0 +1,100 @@
+.complete_ha_container{
+    position: relative;
+    bottom: 420px;
+  }
+  
+  .H_A_page_slide{
+      max-width: 1350px;
+      position: relative;
+      line-height: 0;
+  }
+  
+  
+   /* Show the first image by default */
+   .H_A_page_1{
+    display:none;
+   
+  }
+  
+  .H_A_page_1:first-child {
+    display: flex;
+  }
+  
+  
+  
+  .H_A-flex-l1ink{
+    cursor: pointer;
+    position: absolute;
+    user-select: none;
+  }
+  
+  
+  
+  .ha{
+    font-weight: bold;
+    font-size: 42px;
+    display: inline-block;
+    color: white;
+    text-align: center;  
+    width: 100%;
+    margin-right: 14px;
+    margin-left: 14px;
+    padding-top: 35px;
+    position: relative;
+    z-index: 1;
+    top: 145px;
+  
+    
+  }
+  .H_A_nav_bar{
+      color: rgb(255, 255, 255);
+      height: 60px;
+      display: flex;
+      flex: auto;
+      max-width: 1350px;
+      justify-content: space-between;
+      position: relative;
+      top: 140px;
+      z-index: 1;
+      margin-left: -100px;
+      margin-right: 0;
+      padding-left: 2%;
+      padding-right: 2%;
+      align-items: center;
+      
+      
+  
+  
+  
+    
+      
+  }
+  
+  .H_A-flex-l1ink{
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 30%;
+      font-style: medium;
+      color: rgb(255, 255, 255);
+      padding: 4px 4px 4px 4px;
+      border-radius: 15px;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+  
+  .H_A-flex-item{
+      padding-right: 12px;
+      padding-left: 12px;
+      
+      }
+
+  
+      /*-- Itmes nav highlght ends here here  -->*/
+      /*-- Itmes highlght starts here here  -->*/
+  
+  
+  
+  
+  
+      /*-- gridbox of items  -->*/

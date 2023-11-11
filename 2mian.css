@@ -1,7 +1,6 @@
 .Highlights-main-layout{
     max-width: 1350px;
     position: relative;
-    margin: auto;
     line-height: 0;
 }
 
@@ -58,6 +57,9 @@
     width: 50%;
     justify-content: space-between;
     align-items: center;
+    
+    
+
 
 
   
@@ -103,35 +105,66 @@
   
   column-gap: 30px;
   row-gap: 20px;
+
+
   
 }
 .Highlights-collage img{
   border-radius: 20px;
- 
+  backface-visibility: hidden;
+  transition: all 0.4s ease-out;
   
+ 
 }
 .one {
   grid-column: 1/ span 2;
   grid-row: 1/ span 2;
-
+  max-width: 649px;
+  max-height:649px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 .two {
   grid-column: 3;
   grid-row: 1 ;
+  max-width: 313px;
+  max-height:313px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 .three {
   grid-column: 4;
   grid-row: 1;
+  max-width: 313px;
+  max-height:313px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 .four {
   grid-column: 3;
   grid-row: 2;
+  max-width: 313px;
+  max-height:313px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 .five {
   grid-column: 4;
   grid-row: 2;
+  max-width: 313px;
+  max-height:313px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 
 
 
+
+
+
+.Highlights-collage img:hover {
+  backface-visibility: hidden;
+  transform: scale(1.1, 1.1);
+  opacity: 1;
+}

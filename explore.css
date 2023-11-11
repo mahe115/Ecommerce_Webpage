@@ -1,0 +1,85 @@
+.bottom_container{
+    position: relative;
+    bottom: 420px;
+  }
+
+.explore_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.images_container img{
+    border-radius: 20px;
+    backface-visibility: hidden;
+    transition: all 0.4s ease-out;
+  
+}
+.images_container .i1mg{
+    max-width: 649px;
+    max-height:649px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.images_container img:hover{
+    backface-visibility: hidden;
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+}
+.i1mg{
+    display: none;
+    width: 100%;
+    width: 649px;
+    height: 649px;
+}
+.i1mg:first-child{
+    display:block;
+    
+}
+
+/*-------------------------------------------text side flex------------------*/
+.images_control_text{
+    padding-top: 82px;
+    cursor: pointer;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+   align-items: start;
+   font-weight: 900;
+   font-size: larger;
+   user-select: none;
+}
+.images_control_text .te1xt{
+      height: 60px;
+}
+
+
+.digite1{
+    padding-right: 40px;
+    margin-left: -110px;
+}
+.digite2{
+    padding-right: 40px;
+    margin-left: -300px;
+
+}
+.digite3{
+    padding-right: 40px;
+    margin-left: -70px;
+
+}
+.digite4{
+    padding-right: 40px;
+    margin-left: -5px;
+
+}
+.digite5{
+    padding-right: 40px;
+    margin-left: -320px;
+
+}
+
+.images_control_text .te1xt:hover{
+    background-color: aqua;
+  
+}
