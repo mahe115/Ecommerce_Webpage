@@ -2,7 +2,9 @@
     padding: 0;
     box-sizing: border-box;
     max-width: 1350px;
+    scroll-behavior: smooth;
     margin: 0 auto;
+    font-family: "Mulish", sans-serif;
    
   }
 .nav-bar{

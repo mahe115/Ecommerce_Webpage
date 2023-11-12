@@ -1,0 +1,287 @@
+/* HEADER */
+
+
+  .recom_prod{
+    text-align: center;
+    padding: 45px 23px 15px 23px;
+    position: relative;
+    font-size: 42px;
+    font-weight: bold;
+    bottom: 400px;
+  }
+  
+  /* PRODUCTS */
+  .product {
+    position: relative;
+    overflow: hidden;
+    width: 1350px;
+    padding: 20px;
+    bottom: 400px;
+
+  }
+  
+  .product-category {
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+  }
+  
+  .product-container {
+    padding: 0 95px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    height: 550px;
+    user-select: none;
+  }
+  
+  .product-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .product-card {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 450px;
+    margin-right: 40px;
+  }
+  
+  .product-image {
+    position: relative;
+    width: 204px;
+    height: 204px;
+    overflow: hidden;
+  }
+  
+  .product-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .discount-tag {
+    position: absolute;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: #000000;
+    right: 10px;
+    top: 10px;
+    text-transform: capitalize;
+  }
+  
+  
+  
+  .product-card:hover .card-btn {
+    opacity: 1;
+  }
+  
+  
+  
+  .product-info {
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+ .product-info div{
+    padding-bottom: 10px;
+
+ }
+  
+  .product-brand {
+    text-transform: uppercase;
+  }
+  
+  .product-short-description {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 5px 0;
+  }
+  
+  .price {
+    font-weight: 900;
+    font-size: 20px;
+  }
+  
+  .actual-price {
+    margin-left: 20px;
+    opacity: 0.5;
+    text-decoration: line-through;
+  }
+  
+  .pre-btn,
+  .nxt-btn {
+    border: none;
+    width: 80px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0)#fff 100%);
+    cursor: pointer;
+    z-index: 8;
+  }
+  
+  .pre-btn {
+    left: 0;
+    transform: rotate(180deg);
+  }
+  
+  .nxt-btn {
+    right: 0;
+  }
+  
+  .pre-btn img,
+  .nxt-btn img {
+    opacity: 0.2;
+  }
+  
+  .pre-btn:hover img,
+  .nxt-btn:hover img {
+    opacity: 1;
+  }
+  
+  .collection-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .collection {
+    position: relative;
+  }
+  
+  .collection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .collection p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    text-transform: capitalize;
+  }
+  
+  .collection:nth-child(3) {
+    grid-column: span 2;
+    margin-bottom: 10px;
+  }
+  
+
+
+
+  /*-----------------------editable--------------------*/
+
+
+
+
+
+.my-recommended-product__section{
+   
+    font-size: 14px;
+    word-wrap: break-word;
+    max-width: 220px;
+}
+.color_chooser_text{
+    font-size: 11px;
+    text-align: center;
+}
+
+.color_btn_flex{
+  display: flex;
+  justify-content: center;
+  padding-left: 55px;
+  padding-right: 55px;
+
+
+}
+.color_btn_flex a{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.curren_Price{
+    font-size: 20px;
+}
+.mrp_golmaal{
+    font-size: 12px;
+}
+.save_price{
+    font-size: 12px;
+}
+.emi_details{
+    font-size: 12px;
+}
+.emi_calculator{
+    font-size: 12px;
+    color: rgb(0, 109, 233);
+}
+.buy_btn{
+    width: 220.5px;
+    height: 38px;
+    margin-left: 15px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    border:solid 1px #fff;    
+}
+
+
+.spex_flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.mudhal_btn{
+    margin-left: 70px;
+    margin-right: 15px;
+    height: 27px;
+    width: 53px;
+    border-radius: 15px;
+    border-width: 1px;
+    padding: 0 5px 0 5px;
+    box-shadow: none;
+  
+}
+
+.irandam_btn{
+    margin-right: 70px;
+    margin-left: 15px;
+    height: 27px;
+    width: 53px;
+    border-radius: 15px;
+    border-width: 1px;
+    padding: 0 5px 0 5px;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+  

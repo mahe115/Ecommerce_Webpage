@@ -2,7 +2,12 @@
     position: relative;
     bottom: 420px;
   }
-
+.explore_prod{
+    text-align: center;
+    padding: 45px 23px 15px 23px;
+    font-size: 42px;
+    font-weight: bold;
+}
 .explore_container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
