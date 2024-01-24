@@ -13,37 +13,9 @@
 
 
 /*---------------------------overall product grid-------------------------------------*/
-.products_grid{
-    padding: 30px 0px 30px 0px;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    max-width: 1100px;
-    cursor: pointer;
-}
 
-.products_grid div{
-    width: 250px;
-}
 /*-------------------------------flexbox for idividual inner eleements---------------*/
-.recomd_image{
-    margin-left: 20px;
-}
-.firstu_item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 250.5px;
-    height: 535px;
-}
-.recom_description_section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-}
-.recom_description_section div{
-    padding-bottom: 10px;
-}
+
 .my-recommended-product__section{
    
     font-size: 14px;

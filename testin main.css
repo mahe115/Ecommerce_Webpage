@@ -20,14 +20,7 @@
 
   }
   
-  .product-category {
-    padding: 0 10vw;
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 40px;
-    text-transform: capitalize;
-  }
-  
+
   .product-container {
     padding: 0 95px;
     display: flex;
@@ -129,8 +122,8 @@
     top: 0;
     display: flex;
     justify-content: center;
+    background-color: #fff;
     align-items: center;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0)#fff 100%);
     cursor: pointer;
     z-index: 8;
   }

@@ -51,12 +51,12 @@
       height: 60px;
       display: flex;
       flex: auto;
-      max-width: 1350px;
+      max-width: 1200px;
       justify-content: space-between;
       position: relative;
       top: 140px;
       z-index: 1;
-      margin-left: -100px;
+      margin-left: -30px;
       margin-right: 0;
       padding-left: 2%;
       padding-right: 2%;

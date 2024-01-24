@@ -1,0 +1,106 @@
+/* PRODUCTS */
+.complete_phone_container{
+  position: relative;
+  overflow: hidden;
+  width: 1350px;
+  bottom: 130px;
+ 
+
+}
+.phone_page_slide {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  height: 810px;
+  user-select: none;
+
+}
+
+.phone_page_slide::-webkit-scrollbar {
+  display: none;
+}
+.phone_p1age_1 {
+  flex: 0 0 auto;
+  width: 1350px;
+  height: 810px;
+  margin-right: 40px;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------*/
+
+.phone-flex-l1ink{
+  cursor: pointer;
+  position: absolute;
+  user-select: none;
+}
+
+
+
+.MG{
+  font-weight: bold;
+  font-size: 42px;
+  display: inline-block;
+  color: white;
+  text-align: center;  
+  width: 100%;
+  margin-right: 14px;
+  margin-left: 14px;
+  padding-top: 35px;
+  position: relative;
+  z-index: 1;
+  top: 145px;
+
+  
+}
+.phone_nav_bar{
+    color: rgb(255, 255, 255);
+    height: 60px;
+    display: flex;
+    flex: 0;
+    max-width: 1350px;
+    justify-content: space-between;
+    position: relative;
+    top: 140px;
+    z-index: 1;
+    margin-left: -40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    
+    
+
+
+
+  
+    
+}
+
+.phone-flex-l1ink{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30%;
+    font-style: medium;
+    color: rgb(255, 255, 255);
+    padding: 4px 4px 4px 4px;
+    border-radius: 15px;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+
+.phone-flex-item{
+    padding-right: 12px;
+    padding-left: 12px;
+    
+    }
+
+    /*-- Itmes nav highlght ends here here  -->*/
+    /*-- Itmes highlght starts here here  -->*/
+
+
+
+
+
+    /*-- gridbox of items  -->*/
