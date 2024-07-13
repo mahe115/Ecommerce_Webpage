@@ -11,12 +11,7 @@ https://github.com/user-attachments/assets/51dd13a0-20fe-4f0c-949c-01bf5aef091b
 ##Webpage Video
 You can check out the live version of the website here: [Naruto Shopping](https://mahe115.github.io/Ecommerce_Webpage/)
 
-## Features
 
-- **User-Friendly Navigation**: Easily browse through categories such as Mobiles, TVs & AV, Home Appliances, Laptops & Monitors, and more.
-- **Search Functionality**: Quickly find your desired products with our search bar.
-- **Shopping Cart**: Conveniently manage your selected items in the shopping cart.
-- **Weekly Highlights**: Stay updated with the latest sales and product highlights.
 
 ## Website Content Overview
 
