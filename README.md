@@ -4,7 +4,7 @@ Welcome to **Naruto Shopping**, your one-stop destination for all things tech! O
 
 ## Live Demo
 
-![Ecommerce Webpage Video](https://github.com/mahe115/Ecommerce_Webpage/blob/main/Ecommerce%20Webpage%20(1).mp4?raw=true)
+[![View Ecommerce Video](https://img.youtube.com/vi/EcommerceWebpage/0.jpg)](https://github.com/mahe115/Ecommerce_Webpage/blob/main/Ecommerce%20Webpage%20(1).mp4?raw=true)
 
 
 ##Webpage Video
